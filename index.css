@@ -18,7 +18,7 @@ body{
 }
 
 a:link{
-    color:rgb(163, 42, 147);
+    color:rgb(133, 10, 150);
 }
 a:active{
     color:blueviolet;
@@ -29,5 +29,6 @@ a:active{
   @media only screen and (max-width: 600px) {
     body {
       background-image: url('pic2.jpg');
+        background-size: cover;
     }
   }
