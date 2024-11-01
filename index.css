@@ -13,10 +13,16 @@ h2{
 
 h3{
     text-align: center;
-    text-shadow: 4px 4px 4px rgb(63, 5, 97) ;
     background-color: #ffffff8a;
     border-radius: 20px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    h1, h2, h3, body {
+      flex: 50%;
+      max-width: 50%;
+    }
 }
