@@ -61,7 +61,7 @@ a:visited{
     text-shadow: 2px 2px 2px rgba(4, 7, 10, 0.315);
 }
 
-.dropbtn {
+.dropbtn, .dropbtn2  {
 	background-color: #3498db00;
 	color: rgb(5, 1, 1);
 
@@ -69,18 +69,18 @@ a:visited{
 	cursor: pointer;
   }
   
-  .dropbtn:hover, .dropbtn:focus {
+  .dropbtn:hover, .dropbtn:focus, .dropbtn2:hover, .dropbtn2:focus {
 	background-color: #297fb900;
 	color: rgba(8, 15, 15, 0.849);
 	text-shadow: 2px 2px 2px rgba(118, 198, 245, 0.432);
   }
   
-  .dropdown {
+  .dropdown, .dropdown2 {
 	position: relative;
 	display: inline-block;
   }
   
-  .dropdown-content {
+  .dropdown-content, .dropdown-content2 {
 	display: none;
 	position:relative;
 	background-color: #ee5353;
@@ -92,17 +92,20 @@ a:visited{
 	align-content: center;
   }
   
-  .dropdown-content a {
+  .dropdown-content a, .dropdown-content2 a{
 	color: black;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
   }
   
-  .dropdown a:hover {background-color: #fafcfd;}
+  .dropdown a:hover, .dropdown2 a:hover {background-color: #fafcfd;}
   
   .show {display:inline;}
-
+.links{
+	font-size: large;
+	font-weight: bolder;
+}
   
 /* For width 400px and larger: */
 @media only screen and (max-width: 600px) {
