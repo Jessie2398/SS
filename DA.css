@@ -71,9 +71,9 @@ a:visited{
 }
   
   /* For width 400px and larger: */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px), (min-height: 860px) {
     body {
       background-image: url('mobile4.jfif');
-      background-size: 600px 1200px;
+      background-size: cover;
     }
   }
